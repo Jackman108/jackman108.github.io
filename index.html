@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Eugene Korobov — Full-stack developer (TypeScript, Next.js, Node). НаТочку, job_search, NestJS. РБ / remote RU."
+    />
+    <title>Eugene Korobov — Full-stack developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="mark" href="#top">Eugene<span>.</span></a>
+      <nav>
+        <a href="#work">Опыт</a>
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Стек</a>
+        <a href="#contact">Контакт</a>
+        <a href="https://github.com/Jackman108/cv" target="_blank" rel="noopener">CV</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="hero-kicker">Full-stack · TypeScript · РБ / remote RU</p>
+          <h1 class="hero-brand">Eugene Korobov</h1>
+          <p class="hero-lead">
+            Веб и API с 2020: React, Next.js, Node, NestJS, SQL. Продуктовый кейс — B2B
+            «НаТочку» (заявки на объект, диспетчер, мастер, FSM).
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://github.com/Jackman108" target="_blank" rel="noopener"
+              >GitHub</a
+            >
+            <a class="btn btn-ghost" href="mailto:dev.js.eugene@gmail.com">Email</a>
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/Jackman108/ad-app"
+              target="_blank"
+              rel="noopener"
+              >НаТочку</a
+            >
+          </div>
+        </div>
+        <img
+          class="hero-photo"
+          src="https://raw.githubusercontent.com/Jackman108/jackman108.github.io/main/static/media/me-about.4d1203d1a5101a89ee29.jpg"
+          alt="Eugene Korobov"
+          width="280"
+          height="280"
+        />
+      </section>
+
+      <section id="work" class="section">
+        <h2>Опыт</h2>
+        <div class="panel">
+          <article class="job">
+            <header>
+              <h3>ООО «Пауэр-Строй»</h3>
+              <p class="meta">Москва · удалённо · Full-stack developer · Ноя 2024 — н.в.</p>
+            </header>
+            <ul>
+              <li>
+                Full-stack контур внутренних веб-сервисов: React/Next.js, Node.js/NestJS,
+                PostgreSQL (TypeORM/Prisma).
+              </li>
+              <li>
+                REST API модулей учёта объектов/заявок: валидация, роли, аудит, пагинация и
+                фильтры.
+              </li>
+              <li>HTTP-кэш и ETag на read-эндпоинтах; меньше лишних запросов к БД.</li>
+              <li>CI/CD (GitHub Actions + Docker): сборка, проверки, выкат стендов.</li>
+              <li>UI на React + Redux Toolkit: формы, таблицы, статусы, загрузка/ошибки.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <header>
+              <h3>ООО «Лайкит»</h3>
+              <p class="meta">Full-stack developer · Фев 2023 — Окт 2024</p>
+            </header>
+            <ul>
+              <li>
+                Высоконагруженные модули веб-приложения: Node.js, NestJS, PostgreSQL, TypeORM.
+              </li>
+              <li>
+                Кэширование client–server (HTTP caching, ETag) — снижение нагрузки на сервер
+                ~25%.
+              </li>
+              <li>Асинхронные процессы и кэш данных на backend.</li>
+              <li>Интеграция frontend на React + Redux Toolkit с REST API.</li>
+              <li>CI/CD на GitHub Actions и Docker — быстрее выпуск обновлений.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <header>
+              <h3>ООО «Вэб Моушн»</h3>
+              <p class="meta">Frontend developer · Дек 2020 — Янв 2023</p>
+            </header>
+            <ul>
+              <li>
+                Адаптивные UI на Vue.js/Vuex и React/Next.js + SCSS; reusable-компоненты.
+              </li>
+              <li>Lazy loading, code-splitting / tree-shaking.</li>
+              <li>Интеграция с REST API.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <header>
+              <h3>ИП Коробов Е.В.</h3>
+              <p class="meta">Frontend developer · Мар 2020 — Дек 2020</p>
+            </header>
+            <ul>
+              <li>5+ веб-приложений (e-commerce и сервисные порталы) на React/Redux.</li>
+              <li>Кастомные UI-компоненты и REST-интеграция с backend.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Проекты</h2>
+        <ul class="projects">
+          <li>
+            <a href="https://github.com/Jackman108/ad-app" target="_blank" rel="noopener">НаТочку (ad-app)</a>
+            <span
+              >B2B field-service: WorkOrder FSM, диспетчер, мастер, Prisma, Next.js App
+              Router.</span
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Jackman108/job_search_client" target="_blank" rel="noopener"
+              >job_search_client</a
+            >
+            /
+            <a href="https://github.com/Jackman108/job_search_backend" target="_blank" rel="noopener"
+              >backend</a
+            >
+            <span>Поиск вакансий: React + Express/Postgres (TypeScript).</span>
+          </li>
+          <li>
+            <a href="https://github.com/Jackman108/auth_nestjs" target="_blank" rel="noopener">auth_nestjs</a>
+            <span>Auth-сервис на NestJS.</span>
+          </li>
+          <li>
+            <a href="https://github.com/Jackman108/work_time" target="_blank" rel="noopener">work_time</a>
+            <span>Builder Manager — Electron + SQLite.</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Стек</h2>
+        <div class="panel">
+          <p class="skills">
+            TypeScript · JavaScript · React · Next.js · Node.js · NestJS · Redux · PostgreSQL ·
+            Prisma / TypeORM · REST · GraphQL · Docker · GitHub Actions · Git · SCSS · Playwright
+          </p>
+          <p class="skills muted">Также: Vue.js, MongoDB, PHP, C#, React Native</p>
+        </div>
+      </section>
+
+      <section id="edu" class="section">
+        <h2>Образование</h2>
+        <div class="panel">
+          <ul class="edu">
+            <li>
+              <strong>ГГТУ им. П.О. Сухого</strong>, Гомель — ПО информационных систем · 2024
+            </li>
+            <li>
+              <strong>БТЭУ ПК</strong>, Гомель — Экономика и управление на предприятии · 2013
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Контакт</h2>
+        <div class="panel">
+          <ul>
+            <li><a href="tel:+375291942881">+375 29 194-28-81</a></li>
+            <li><a href="mailto:dev.js.eugene@gmail.com">dev.js.eugene@gmail.com</a></li>
+            <li>
+              <a href="https://github.com/Jackman108" target="_blank" rel="noopener"
+                >github.com/Jackman108</a
+              >
+            </li>
+            <li>Офис РБ / remote RU · EN — чтение документации</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>© 2026 Eugene Korobov</span>
+      <a href="https://jackman108.github.io/">jackman108.github.io</a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
